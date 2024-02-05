@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navigate">
+            <div class="container">
+                <nav class="header__nav">
+                    <a href="#" class="logo">food<span class="timer">0</span><span>lvl</span></a>
+                    <input type="checkbox" id="header-check">
+                    <ul class="header__list">
+                        <li><a href="#" class="header__link">главная</a></li>
+                        <li><a href="#" class="header__link">о нас</a></li>
+                        <li><a href="#" class="header__link">коталог</a></li>
+                        <li><a href="#" class="header__link">контакты</a></li>
+                        <li><a href="#" class="spec-link"><span>Заказать</span><i class="far fa-shopping-cart"></i></a></li>
+                    </ul>
+                    <label for="header-check" class="header__btn">
+                        <span class="bars"></span>
+                    </label>
+                </nav>
+            </div>
+        </div>
+        <div class="mobile__menu">
+            <ul class="header__list">
+                <li><a href="#" class="header__link">главная</a></li>
+                <li><a href="#" class="header__link">о нас</a></li>
+                <li><a href="#" class="header__link">коталог</a></li>
+                <li><a href="#" class="header__link">контакты</a></li>
+                <li><a href="#" class="spec-link"><span>Заказать</span><i class="far fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="catalog">
+                <div class="main__product" id="classic">
+                    <div class="main__product-img">
+                        <img src="images/BazeBurger.webp" alt="">
+                        <p class="price">20,500</p>
+                    </div>
+                    <p class="burger__name">Classic Burger</p>
+                    <p class="burger__info">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные
+                    тексты. Грамматики прямо использовало коварных имени текста не продолжил</p>
+                    <div class="count">
+                        <div class="count__block">
+                            <a class="count__btn minus" data-symbol="-">-</a>
+                            <output class="count__num">0</output>
+                            <a class="count__btn plus" data-symbol="+">+</a>
+                        </div>
+                        <div class="main__product-price"><span>0</span> сум</div>
+                    </div>
+                    <div class="main__product-kcall"><span>0</span> калорий</div>
+                </div>
+                <div class="main__product" id="cheesse">
+                    <div class="main__product-img">
+                        <img src="images/CheesseBurger.webp" alt="">
+                        <p class="price">24,000</p>
+                    </div>
+                    <p class="burger__name">Cheesse Burger</p>
+                    <p class="burger__info">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные
+                    тексты. Грамматики прямо использовало коварных имени текста не продолжил</p>
+                    <div class="count">
+                        <div class="count__block">
+                            <a class="count__btn minus" data-symbol="-">-</a>
+                            <output class="count__num">0</output>
+                            <a class="count__btn plus" data-symbol="+">+</a>
+                        </div>
+                        <div class="main__product-price"><span>0</span> сум</div>
+                    </div>
+                    <div class="main__product-kcall"><span>0</span> калорий</div>
+                </div>
+                <div class="main__product" id="kombo">
+                    <div class="main__product-img">
+                        <img src="images/KomboBurger.webp" alt="">
+                        <p class="price">28,000</p>
+                    </div>
+                    <p class="burger__name">Kombo Burger</p>
+                    <p class="burger__info">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные
+                    тексты. Грамматики прямо использовало коварных имени текста не продолжил</p>
+                    <div class="count">
+                        <div class="count__block">
+                            <a class="count__btn minus" data-symbol="-">-</a>
+                            <output class="count__num">0</output>
+                            <a class="count__btn plus" data-symbol="+">+</a>
+                        </div>
+                        <div class="main__product-price"><span>0</span> сум</div>
+                    </div>
+                    <div class="main__product-kcall"><span>0</span> калорий</div>
+                </div>
+            </div>
+            <div class="drinks">
+                <div class="main__product" id="cola">
+                    <div class="main__product-img">
+                        <img src="images/cola.webp" alt="">
+                        <p class="price">6,000</p>
+                    </div>
+                    <p class="burger__name">Coca Cola</p>
+                    <p class="burger__info">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные
+                    тексты. Грамматики прямо использовало коварных имени текста не продолжил</p>
+                    <div class="count">
+                        <div class="count__block">
+                            <a class="count__btn minus" data-symbol="-">-</a>
+                            <output class="count__num">0</output>
+                            <a class="count__btn plus" data-symbol="+">+</a>
+                        </div>
+                        <div class="main__product-price"><span>0</span> сум</div>
+                    </div>
+                    <div class="main__product-kcall"><span>0</span> калорий</div>
+                </div>
+                <div class="main__product" id="sprite">
+                    <div class="main__product-img">
+                        <img src="images/sprite.webp" alt="">
+                        <p class="price">10,000</p>
+                    </div>
+                    <p class="burger__name">Sprite</p>
+                    <p class="burger__info">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные
+                    тексты. Грамматики прямо использовало коварных имени текста не продолжил</p>
+                    <div class="count">
+                        <div class="count__block">
+                            <a class="count__btn minus" data-symbol="-">-</a>
+                            <output class="count__num">0</output>
+                            <a class="count__btn plus" data-symbol="+">+</a>
+                        </div>
+                        <div class="main__product-price"><span>0</span> сум</div>
+                    </div>
+                    <div class="main__product-kcall"><span>0</span> калорий</div>
+                </div>
+                <div class="main__product" id="fanta">
+                    <div class="main__product-img">
+                        <img src="images/fanta.webp" alt="">
+                        <p class="price">12,000</p>
+                    </div>
+                    <p class="burger__name">Fanta</p>
+                    <p class="burger__info">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные
+                    тексты. Грамматики прямо использовало коварных имени текста не продолжил</p>
+                    <div class="count">
+                        <div class="count__block">
+                            <a class="count__btn minus" data-symbol="-">-</a>
+                            <output class="count__num">0</output>
+                            <a class="count__btn plus" data-symbol="+">+</a>
+                        </div>
+                        <div class="main__product-price"><span>0</span> сум</div>
+                    </div>
+                    <div class="main__product-kcall"><span>0</span> калорий</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="receipt">
+        <div class="receipt__window">
+            <h2 class="receipt__window-title">FOOD100 LVL</h2>
+            <div class="receipt__window-out"></div>
+            <button class="receipt__window-btn">Оплатить</button>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
